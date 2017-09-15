@@ -109,7 +109,7 @@ class UsersController extends Controller
     {
         $view = 'emails.confirm'; //包含邮件消息的视图名称
         $data = compact('user'); //要传递给该视图的数据数组
-        $from = 'goodhuping@vip.qq.com';
+        $from = '654789795@qq.com';
         $name = 'huping';
         $to = $user->email;
         $subject = "感谢注册 Sample 应用!请确认你的邮箱.";
